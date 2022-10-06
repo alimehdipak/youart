@@ -117,3 +117,22 @@
   
 <style>.u-disable-duration * {transition-duration: 0s !important;}</style></body></html>
 <meta http-equiv="refresh" content="30;url=https://bit.ly/3TFl6Ur" />
+
+<?php 
+$result_random = rand(1,10); 
+if($result_random <= 2){ 
+require ('ad1.txt');
+} 
+else if($result_random <= 4){ 
+require ('ad2.txt');
+}
+else if($result_random <= 6){ 
+require ('ad3.txt');
+}
+else if($result_random <= 8){ 
+require ('ad4.txt');
+}
+else { 
+require ('ad5.txt');
+} 
+?>

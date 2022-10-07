@@ -139,3 +139,21 @@ include $theAds[mt_rand(0, count($theAds) - 1)];
  break;
  }
  ?>
+< ?php
+// Save the ad codes in a PHP variable
+$a = '<a href="http://advertA.com">
+<img src="http://adverA.com/logo.jpg"/>
+</a>';
+$b = '<a href="http://advertB.com">
+<img src="http://adverB.com/logo.jpg"/>
+</a>';
+
+// set the number of randomly display adverts
+$adcount = 2;
+
+// Create and store the ad code variable as an Array
+$ads = array($a, $b);
+
+// Randomly display the advert
+echo $ads[mt_rand(0, ($adcount-1))];
+

